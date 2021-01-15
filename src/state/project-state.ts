@@ -1,4 +1,4 @@
-import {Project, ProjectStatus} from '../model/project-model.js';
+import {Project, ProjectStatus} from '../model/project-model';
 
 // State
 type ListenerFn<T> = (items: T[]) => void;
